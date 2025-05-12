@@ -7,9 +7,9 @@ const InvestmentSection = () => {
         
         {/* Image */}
         <img
-          src="src/components/cardimg.jpg" // Replace with your actual path
+          src="invest.jpg" // Replace with your actual path
           alt="Investment Chart"
-          className="w-60 h-60 object-contain"
+          className="w-60 h-60 object-contain rounded-xl"
         />
 
         {/* Text Content */}

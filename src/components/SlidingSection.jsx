@@ -10,23 +10,23 @@ import "./SlidingSection.css"; // 👈 Custom styles
 const slides = [
   {
     title: "Ultraviolet Black Card", // Cartão Black Ultraviolet
-    image: "src/components/imgs1.jpg",
+    image: "sli6.jpg",
   },
   {
     title: "Global Account", // Conta Global
-    image: "src/components/imgs2.jpg",
+    image: "sli1.jpg",
   },
   {
     title: "Investments", // Investimentos
-    image: "src/components/imgs3.jpg",
+    image: "sli2.jpg",
   },
   {
     title: "Ultraviolet Support", // Atendimento Ultraviolet
-    image: "src/components/imgs4.jpg",
+    image: "sli5.jpg",
   },
   {
-    title: "NuTag", // NuTag is a brand name (no translation)
-    image: "src/components/imgs5.jpg",
+    title: "NordTag", // NuTag is a brand name (no translation)
+    image: "sli3.jpg",
   },
 ];
 

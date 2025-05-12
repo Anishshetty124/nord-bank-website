@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 export default function Loans() {
   return (
     <div className="p-8 bg-gradient-to-r from-indigo-50 via-indigo-100 to-indigo-200 rounded-lg shadow-lg">
-      <a href="/" className="inline-block mt-4 mb-6 bg-gray-600 text-white px-6 py-2 rounded-md hover:bg-gray-800 transition duration-300">
+      <Link  to="/" className="inline-block mt-4 mb-6 bg-gray-600 text-white px-6 py-2 rounded-md hover:bg-gray-800 transition duration-300">
   &larr; Go Back
-</a>
+</Link>
 
       <h1 className="text-4xl font-bold text-gray-800 mb-6 text-center">
         Get the Funds You Need with Nord Bank Loans

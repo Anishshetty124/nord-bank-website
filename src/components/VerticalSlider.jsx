@@ -3,22 +3,22 @@ import React, { useState, useEffect } from 'react';
 const imageCards = [
   {
     id: 1,
-    image: 'src/components/imgs1.jpg',
+    image: 'imgs1.jpg',
     description: 'Exclusive Black Ultraviolet Card with premium benefits.',
   },
   {
     id: 2,
-    image: 'src/components/imgs2.jpg',
+    image: 'imgs2.jpg',
     description: 'Open a Global Account for easy international transactions.',
   },
   {
     id: 3,
-    image: 'src/components/imgs3.jpg',
+    image: 'imgs3.jpg',
     description: 'Invest in high-return opportunities with Ultraviolet’s exclusive investment plans.',
   },
   {
     id: 4,
-    image: 'src/components/imgs4.jpg',
+    image: 'imgs4.jpg',
     description: '24/7 priority support and dedicated service for Ultraviolet members.',
   },
 ];

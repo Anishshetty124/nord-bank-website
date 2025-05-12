@@ -6,7 +6,7 @@ export function HeroSection() {
         {/* Right Side - Image Content (first on mobile) */}
         <div className="w-full order-1 md:order-2">
           <img
-            src="src/components/mainimg.jpg"
+            src="mainimg.jpg"
             alt="Ultraviolet Experience"
             className="rounded-xl w-full object-cover"
           />
@@ -15,7 +15,7 @@ export function HeroSection() {
         {/* Left Side - Text Content (second on mobile) */}
         <div className="order-2 md:order-1">
           <h2 className="text-amber-700 text-lg font-semibold mb-2">
-            Nubank Ultraviolet
+            Nord Ultraviolet
           </h2>
           <h1 className="text-4xl md:text-4xl font-bold text-neutral-900 leading-tight mb-6">
             Solutions designed for you.<br />
@@ -29,7 +29,7 @@ export function HeroSection() {
             </p>
             <input
               type="text"
-              placeholder="Enter your CPF"
+              placeholder="Enter your aadhar/pan"
               className="w-full mb-4 px-5 py-3 rounded-full bg-neutral-100 focus:outline-none focus:ring-2 focus:ring-amber-700 transition"
             />
             <button className="w-full bg-neutral-800 hover:bg-neutral-900 text-white font-semibold py-3 rounded-full transition">

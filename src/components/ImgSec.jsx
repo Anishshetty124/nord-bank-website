@@ -10,7 +10,7 @@ const ImgSec = () => {
       {/* Card Image */}
       <div className="w-[80%] max-w-4xl rounded-2xl overflow-hidden shadow-2xl">
         <img
-          src="src/components/cardimg.jpg"  // Ensure the correct image path
+          src="cardimg.jpg"  // Ensure the correct image path
           alt="Nubank Card"
           className="w-full h-auto object-cover"
         />
