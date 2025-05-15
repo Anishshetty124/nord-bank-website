@@ -90,13 +90,13 @@ export function Login() {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <div className="w-12 h-9 bg-black rounded-full">
-            <a href="/">
+            <Link href="/App">
               <img
                 src="logo.jpg"
                 alt="Nubank Logo"
                 className="w-full h-full object-cover rounded-md"
               />
-            </a>
+            </Link>
           </div>
         </div>
           
