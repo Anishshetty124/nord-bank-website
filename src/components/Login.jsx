@@ -89,8 +89,8 @@ export function Login() {
       <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-4 md:px-6">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <div className="w-12 h-9 bg-black rounded-full">
-            <Link href="/App">
+          <div className="w-11 h-8 bg-black rounded-full">
+            <Link to="/App">
               <img
                 src="logo.jpg"
                 alt="Nubank Logo"
