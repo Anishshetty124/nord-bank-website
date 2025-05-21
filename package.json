@@ -1,6 +1,6 @@
 {
   "name": "web-project",
-  "homepage": "https://codex3646.github.io/bankwebsite/",
+  "homepage": "https://anishshetty124.github.io/nord-bank-website/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,8 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
+  "deploy": "gh-pages -d dist --repo=https://github.com/Anishshetty124/nord-bank-website.git"
+},
   "dependencies": {
     "lucide-react": "^0.509.0",
     "react": "^19.0.0",
